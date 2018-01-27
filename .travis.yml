@@ -17,5 +17,7 @@ script:
 deploy:
   provider: npm
   email: ez@jok.io
-  skip_cleanup: true
   api_key:
+    secure: jRvK8ZEjT+pjtqcZ4peHIkMZHEkhIIWYGmrwK4CT2EBWC5K5jt1fxXRwZsV/5Wqhtbqj+IDpb1GkzQHlUKvuZuTnkzB9xfoM97WgiO77k1NYxL02LH8iHgErMq4y0Qfn/S/XLC/mWx7Ay7z8qgILm3gWryDZNNj8M2fM9erX5z5vqUe1y+9q8ep8/J3naoATZPgKNnB0VHx0TLjD/SGWYEMbR5VUt/Cn0jVzVu2kk2QSaUsclZhoaGk/myesPQ11G6QpA/SPe45RJPk+D0Btlavwr8EKYdHPyUPsI9RkgkIKi4fU7ul7iDz8hf96zW7EBH8UB5eQCiIPR9mQP+Xr3jN2oyJ+1GHb7tvCqL+BCJrPRa/+KzqFsLVbCTrzjP5F4GVGxu8s/LGVSc2nFvNWKBDgwJ/PWI0TKpBVpVdhAvUJgTah3MVpwJBCPlDRp4WV7QlSEoRgXRQTjVIW2OEnt9I3VkE6eQ9Vu4uomOSI1uRnuaU9+S/MJM00iO1wqcJnDv4uWIISFqI8q9/AKqKqTYWHiqCw4DZCVti8kp+wU+Hg2odpPlFtQpqHx4woB7ottNIS9uol8HGR8haR+TyGnpf9jCS1eO6GrLhEyh/I+iMEf12Zrd888MXdVdAJmOPe4re9bo3ag2MnuKpDa5XLXZj0wUWA+ZBsU4UWKDzIpvw=
+  on:
+    repo: jokio/jokio
