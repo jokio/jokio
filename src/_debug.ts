@@ -1,1 +1,3 @@
-console.log('debug works')
+import uniqueId from "./uniqueId";
+
+console.log('debug works', uniqueId())
