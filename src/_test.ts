@@ -3,7 +3,6 @@
 process.env.NODE_ENV = 'test';
 process.env.PUBLIC_URL = '';
 
-const jest = require('jest');
 const fs = require('fs');
 const fsx = require('fs-extra');
 const path = require('path');
@@ -77,4 +76,9 @@ if (!process.env.CI) {
 
 argv.push('--testPathPattern', '^(?!(.*watch.spec.ts$)).*');
 
-jest.run(argv);
+function run() {
+	const jest = require('jest');
+	jest.run(argv);
+}
+
+run();

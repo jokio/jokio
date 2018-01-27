@@ -11,8 +11,7 @@
 		"emitDecoratorMetadata": true,
 		"outDir": "dist",
 		"lib": [
-			"esnext",
-			"dom"
+			"esnext"
 		]
 	},
 	"exclude": [
