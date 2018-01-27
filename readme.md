@@ -3,6 +3,7 @@
 simple functions for creating complex apps 
 
 [![Build Status](https://travis-ci.org/jokio/jokio.svg?branch=master)](https://travis-ci.org/jokio/jokio)
+[![npm version](https://badge.fury.io/js/jokio.svg)](https://badge.fury.io/js/jokio)
 
 ### Idea:
 ```ts
