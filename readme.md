@@ -9,20 +9,20 @@ type Process = (props: Props) => (state: State, context: Context) => Promise<Sta
 Example:
 ```js
 const process1 = (props) => (state, context) => {
-	return { ...state, info: state.info + ' hello' };
+  return { ...state, info: state.info + ' hello' };
 }
 
 const process2 = (props) => (state, context) => {
-	return Promise.resolve({ ...state, info: state.info + ' world' });
+  return Promise.resolve({ ...state, info: state.info + ' world' });
 }
 
 const initialState = {
-	info: '[Cool App]'
+  info: '[Cool App]'
 }
 
 const run = compose(
-	process1(),
-	process2(),
+  process1(),
+  process2(),
 )
 
 run(initialState);
