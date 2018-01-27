@@ -6,6 +6,12 @@ simple functions for creating complex apps
 [![npm version](https://badge.fury.io/js/jokio.svg)](https://badge.fury.io/js/jokio)
 
 ### Idea:
+In every process we need three different objects:
+* Props
+* State
+* Context
+
+jokio provides following structure to describe processes and make it composable
 ```ts
 type Process = (props: Props) => (state: State, context: Context) => Promise<State>
 
@@ -20,6 +26,15 @@ const run = compose(
 run(initialState, initialContext)
 ```
 
+
+### Functions:
+- compose
+- run
+- runWith
+- log
+- timer
+- pubsub
+- uniqueId
 
 
 ### Example:
