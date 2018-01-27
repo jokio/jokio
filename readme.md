@@ -8,16 +8,30 @@ simple functions for creating complex apps
 ### Idea:
 ```ts
 type Process = (props: Props) => (state: State, context: Context) => Promise<State>
+
+const process1: Process
+const process2: Process
+
+const run = compose(
+  process1,
+  process2,
+)
+
+run(initialState, initialContext)
 ```
+
+
 
 ### Example:
 ```js
+import { compose, log } from 'jokio'
+
 const process1 = (props) => (state, context) => {
-  return { ...state, info: state.info + ' hello' };
+  return { ...state, info: state.info + ' hello' }
 }
 
 const process2 = (props) => (state, context) => {
-  return Promise.resolve({ ...state, info: state.info + ' world' });
+  return Promise.resolve({ ...state, info: state.info + ' world' })
 }
 
 const initialState = {
@@ -25,11 +39,13 @@ const initialState = {
 }
 
 const run = compose(
-  process1(),
-  process2(),
+  process1({}),
+  process2({}),
+  log(),
 )
 
-run(initialState);
+run(initialState)
+
 ```
 
 ### Badge:
