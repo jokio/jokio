@@ -28,6 +28,10 @@
 	"keywords": [
 		"jok"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/indigotech/graphql-schema-decorator.git"
+	},
 	"author": "Jok Entertainers",
 	"license": "MIT",
 	"jest": {

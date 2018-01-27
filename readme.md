@@ -7,7 +7,7 @@ Idea:
 
 
 Example:
-```ts
+```js
 const process1 = (props) => (state, context) => {
 	return { ...state, info: state.info + ' hello' };
 }
@@ -17,7 +17,7 @@ const process2 = (props) => (state, context) => {
 }
 
 const initialState = {
-	info: '[Demo App]'
+	info: '[Cool App]'
 }
 
 const run = compose(
