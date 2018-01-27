@@ -21,8 +21,8 @@ const initialState = {
 }
 
 const run = compose(
-	process1,
-	process2,
+	process1(),
+	process2(),
 )
 
 run(initialState);

@@ -8,6 +8,7 @@
 		"start": "ts-node src",
 		"test": "node lib/tests.js",
 		"dev": "nodemon",
+		"build": "tsc",
 		"deploy": "tsc && npm publish"
 	},
 	"dependencies": {
