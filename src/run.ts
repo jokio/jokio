@@ -1,4 +1,4 @@
-import { compose, ComposeFunction } from './compose'
+import compose, { ComposeFunction } from './compose'
 
 export const runWith = (props: RunProps = {}) => async <TState>(...functions: ComposeFunction<TState>[]) => {
 	props = props || {};
@@ -19,7 +19,7 @@ export const runWith = (props: RunProps = {}) => async <TState>(...functions: Co
 	}
 }
 
-export const run = <TState>(...functions: ComposeFunction<TState>[]) => runWith()(...functions)
+export default <TState>(...functions: ComposeFunction<TState>[]) => runWith()(...functions)
 
 export interface RunProps {
 	errorFn?: (err) => Promise<void> | void

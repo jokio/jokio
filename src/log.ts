@@ -1,5 +1,5 @@
 
-export const log = (mode: 'state' | 'context' | 'all' = 'state', map?: (x: any) => any) => (state, context) => {
+export default (mode: 'state' | 'context' | 'all' = 'state', map?: (x: any) => any) => (state, context) => {
 
 	switch (mode) {
 		case 'state':
