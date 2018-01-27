@@ -9,11 +9,6 @@ simple functions for creating complex apps
 type Process = (props: Props) => (state: State, context: Context) => Promise<State>
 ```
 
-### Badge:
-```
-[![engine: jokio](https://img.shields.io/badge/engine-🃏%20jokio-27ae60.svg)](https://github.com/jokio/jokio)
-```
-
 ### Example:
 ```js
 const process1 = (props) => (state, context) => {
@@ -35,3 +30,9 @@ const run = compose(
 
 run(initialState);
 ```
+
+### Badge:
+```
+[![engine: jokio](https://img.shields.io/badge/engine-%F0%9F%83%8F%20jokio-green.svg)](https://github.com/jokio/jokio)
+```
+[![engine: jokio](https://img.shields.io/badge/engine-%F0%9F%83%8F%20jokio-green.svg)](https://github.com/jokio/jokio)
