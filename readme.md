@@ -2,7 +2,7 @@
 
 Idea:
 ```ts
-(props: Props) => (state: State, context: Context) => Promise<State>
+type Process = (props: Props) => (state: State, context: Context) => Promise<State>
 ```
 
 
