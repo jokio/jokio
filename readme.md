@@ -66,6 +66,7 @@ run(initialState)
 ### Related Projects:
 * [App Generator](https://github.com/jokio/generator-jokio)
 * [GraphQL Server](https://github.com/jokio/jokio-graphql)
+* [NextJS](https://github.com/jokio/jokio-nextjs)
 
 
 ### Badge:
