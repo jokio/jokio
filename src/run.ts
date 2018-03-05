@@ -7,7 +7,7 @@ export const runWith = (props: RunProps = {}) => async <TState>(...functions: Co
 	const startTime = Date.now()
 
 	try {
-		await compose(...functions)(<TState>{}, disableGlobalScope ? null : {})
+		return await compose(...functions)(<TState>{}, disableGlobalScope ? null : {})
 	}
 	catch (err) {
 		if (errorFn)
