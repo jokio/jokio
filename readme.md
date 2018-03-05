@@ -63,6 +63,25 @@ run(initialState)
 
 ```
 
+### Related Projects:
+* [App Generator](https://github.com/jokio/generator-jokio)
+* [GraphQL Server](https://github.com/jokio/jokio-graphql)
+* [NextJS](https://github.com/jokio/jokio-nextjs)
+
+
+### Quick Start:
+install once:
+```bash
+npm i -g yo generator-jokio
+```
+
+create app:
+```
+yo jokio
+```
+Note: this command will not create a new folder, it will generate files in current folder
+
+
 ### Badge:
 ```
 [![engine: jokio](https://img.shields.io/badge/engine-%F0%9F%83%8F%20jokio-44cc11.svg)](https://github.com/jokio/jokio)
