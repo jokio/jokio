@@ -64,12 +64,21 @@ run(initialState)
 ```
 
 ### Related Projects:
-* [App Generator](https://github.com/jokio/generator-jokio)
 * [GraphQL Server](https://github.com/jokio/jokio-graphql)
 * [NextJS](https://github.com/jokio/jokio-nextjs)
+* [create-jokio-app](https://github.com/jokio/create-jokio-app)
+* [Yo App Generator](https://github.com/jokio/generator-jokio)
 
 
 ### Quick Start:
+just run:
+```bash
+yarn create jokio-app myapp
+```
+
+### Yeoman
+You can also use yo generator
+
 install once:
 ```bash
 npm i -g yo generator-jokio
