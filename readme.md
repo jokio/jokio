@@ -37,6 +37,12 @@ run(initialState, initialContext)
 - uniqueId
 
 
+### Quick Start:
+just run:
+```bash
+yarn create jokio-app myapp
+```
+
 ### Example:
 ```js
 import { compose, log } from 'jokio'
@@ -69,12 +75,6 @@ run(initialState)
 * [create-jokio-app](https://github.com/jokio/create-jokio-app)
 * [Yo App Generator](https://github.com/jokio/generator-jokio)
 
-
-### Quick Start:
-just run:
-```bash
-yarn create jokio-app myapp
-```
 
 ### Yeoman
 You can also use yo generator
