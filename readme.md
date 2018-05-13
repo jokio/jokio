@@ -42,7 +42,7 @@ just run:
 ```bash
 yarn create jokio-app myapp
 ```
-For detailed information and all options please visit [create-jokio-app](https://github.com/jokio/create-jokio-app) repository.
+for detailed information and all options please visit [create-jokio-app](https://github.com/jokio/create-jokio-app) repository.
 
 ### Example:
 ```js
