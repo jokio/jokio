@@ -42,6 +42,7 @@ just run:
 ```bash
 yarn create jokio-app myapp
 ```
+For detailed information and all options please visit [create-jokio-app](https://github.com/jokio/create-jokio-app) repository.
 
 ### Example:
 ```js
@@ -72,8 +73,8 @@ run(initialState)
 ### Related Projects:
 * [GraphQL Server](https://github.com/jokio/jokio-graphql)
 * [NextJS](https://github.com/jokio/jokio-nextjs)
-* [create-jokio-app](https://github.com/jokio/create-jokio-app)
 * [Yo App Generator](https://github.com/jokio/generator-jokio)
+* [create-jokio-app](https://github.com/jokio/create-jokio-app)
 
 
 ### Yeoman
