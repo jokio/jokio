@@ -6,7 +6,7 @@ simple functions for creating complex apps
 [![npm version](https://badge.fury.io/js/jokio.svg)](https://badge.fury.io/js/jokio)
 
 
-### Quick Start:
+## Quick Start:
 just run:
 ```bash
 yarn create jokio-app myapp
@@ -14,7 +14,7 @@ yarn create jokio-app myapp
 for detailed information and all options please visit [create-jokio-app](https://github.com/jokio/create-jokio-app) repository.
 
 
-### Idea:
+## Idea:
 In every process we need three different objects:
 * Props
 * State
@@ -36,7 +36,7 @@ run(initialState, initialContext)
 ```
 
 
-### Functions:
+## Functions:
 - compose
 - run
 - runWith
@@ -46,7 +46,7 @@ run(initialState, initialContext)
 - uniqueId
 
 
-### Example:
+## Example:
 ```js
 import { compose, log } from 'jokio'
 
@@ -72,14 +72,14 @@ run(initialState)
 
 ```
 
-### Related Projects:
+## Related Projects:
 * [GraphQL Server](https://github.com/jokio/jokio-graphql)
 * [NextJS](https://github.com/jokio/jokio-nextjs)
 * [Yo App Generator](https://github.com/jokio/generator-jokio)
 * [create-jokio-app](https://github.com/jokio/create-jokio-app)
 
 
-### Yeoman
+## Yeoman
 You can also use yo generator
 
 install once:
@@ -94,7 +94,7 @@ yo jokio
 Note: this command will not create a new folder, it will generate files in current folder
 
 
-### Badge:
+## Badge:
 ```
 [![engine: jokio](https://img.shields.io/badge/engine-%F0%9F%83%8F%20jokio-44cc11.svg)](https://github.com/jokio/jokio)
 ```
