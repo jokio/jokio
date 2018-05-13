@@ -5,6 +5,15 @@ simple functions for creating complex apps
 [![Build Status](https://travis-ci.org/jokio/jokio.svg?branch=master)](https://travis-ci.org/jokio/jokio)
 [![npm version](https://badge.fury.io/js/jokio.svg)](https://badge.fury.io/js/jokio)
 
+
+### Quick Start:
+just run:
+```bash
+yarn create jokio-app myapp
+```
+for detailed information and all options please visit [create-jokio-app](https://github.com/jokio/create-jokio-app) repository.
+
+
 ### Idea:
 In every process we need three different objects:
 * Props
@@ -36,13 +45,6 @@ run(initialState, initialContext)
 - pubsub
 - uniqueId
 
-
-### Quick Start:
-just run:
-```bash
-yarn create jokio-app myapp
-```
-for detailed information and all options please visit [create-jokio-app](https://github.com/jokio/create-jokio-app) repository.
 
 ### Example:
 ```js
