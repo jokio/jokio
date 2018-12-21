@@ -12,6 +12,7 @@
 		"deploy": "tsc && npm publish"
 	},
 	"dependencies": {
+		"fs-extra": "^7.0.1",
 		"uuid": "3.2.1"
 	},
 	"devDependencies": {
