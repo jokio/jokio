@@ -1,7 +1,6 @@
 
 export const STATE_UNDEFINED = 'STATE_UNDEFINED'
 
-// This is THE Function, this is whole framework, everything is built on that, this, is, sparta!! (kick)
 export default <TState>(...functions: ComposeFunction<TState>[]) => {
 	let scopedContext = {}
 
